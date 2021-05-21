@@ -1,0 +1,413 @@
+/* Common on all pages */
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6a7b8b;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0 30px 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0 10% 0 10%;
+    background-color: #f5f5f5
+    ;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+}
+
+footer {
+    background-color: #6a7b8b;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.socials {
+    height: 30px;
+    width: auto;
+    margin: 5px 10px;
+    
+}
+
+.socialsflex {
+    display: flex;
+    justify-content: center;
+}
+
+#logoWhite {
+    height: 50px;
+    width: auto;
+    padding: 10px 10px;
+    margin: 5px 0 0 0;
+}
+
+#logoWhitefooter {
+    height: 80px;
+    width: auto;
+    padding: 10px 10px;
+    margin: 5px 0 0 0;
+    float: left;
+}
+
+.nav {
+    float: none;
+    padding: 20px 10px;
+    font-weight: bold;    
+}
+
+.darklogo {
+    display: flex;
+    justify-content: center;
+}
+
+#logoDark {
+    height: 80px;
+    width: auto;
+    margin: 30px 10px 30px 10px;
+}
+
+@media screen and (max-width: 600px){
+    .nav {
+        float: none;
+    }
+
+    #groupheads {
+        height: 100px;
+        float: inherit;
+    }
+    #shopFront2 {
+        max-height: 50px;
+        width: auto;
+        float: inherit;
+        margin: 20px 20px;
+        }
+
+    #aboutus1 {
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus2 {
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus3 {
+        font-size: 20px;
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+
+    #aboutus4 {
+        text-align: left;
+        margin: 0 0 0 0;
+    }
+}
+
+/* Home Page (index.html */
+
+#homeIntro {
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 250%;
+    color: white;
+    font-weight: bold;
+    text-shadow: 2px 2px darkslategrey;
+}
+
+.shopFront {
+    display: flex;
+    align-items: baseline;
+    position: relative;
+}
+
+#shopFront {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center;
+    color: #5c5b5b;
+    margin: 5% 0 5% 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+
+.column3 {
+    background-color: #bac2c8;
+
+    width: 31%;
+    height: auto;
+    padding: 20px;
+    margin: 1%;
+    box-shadow: 2px 2px 4px darkslategrey
+}
+
+.row {
+    display: flex;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.icon {
+    height: 100px;
+    width: auto;
+    margin-left: 40%;
+}
+
+.mission {
+    color: white;
+    text-align: center;
+}
+
+#findMore {
+    display: block;
+    width: 15%;
+    border-radius: 3px;
+    background-color: #6a7b8b;
+    padding: 10px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+    text-align: center; 
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+}
+
+.column2 {
+    
+    width: 50%;
+    height: auto;
+    padding: 2% 15%;
+    text-align: center;
+    color: #5c5b5b;
+  }
+  
+#openSign {
+    float: left;
+    height: 50px;
+    width: auto;
+}
+
+h3 {
+    padding: 5px 100px;
+    color: #5c5b5b
+}
+
+#footertext {
+    color: white;
+}
+
+#finalnote {
+    color: #5c5b5b;
+}
+
+#contactremind {
+    font-weight: bold;
+    color: #5c5b5b;
+}
+
+/* About Page */
+
+#groupheads {
+    float: right;
+    height: 500px;
+    width: auto;
+    padding: 0px 10%;
+}
+
+#aboutus1 {
+    font-size: 30pt;
+    text-align: left;
+}
+
+.aboutus2 {
+    padding: 10px 50% 10px 10px;
+}
+
+#shopfront2 {
+    float: left;
+    height: 400px;
+    width: auto;
+}
+
+#aboutus3 {
+    font-size: 30pt;
+    text-align: left;
+    margin: 10% 20px 10px 45%;
+}
+
+.aboutus4 {
+    padding: 10px 10% 10px 45%;
+}
+
+/* Contact Page */
+
+#contactheading {
+    font-size: 30pt;
+    text-align: center;
+    color: #5c5b5b;
+    margin-top: 10%;
+}
+
+address {
+    font-style: normal;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #5c5b5b;
+    padding: 5% 20% 5% 20%;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+}
+
+#locationmap {
+    margin: 0 0 20px 0;
+    padding: 0 0;
+}
+
+/* Project 2 - Contact Form CSS*/
+
+#tellus {
+    font-size: 30pt;
+    color: #5c5b5b;
+    text-align: center;
+}
+
+form {
+    margin: 5% 20%;
+}
+
+label {
+    color: #5c5b5b;
+    text-decoration: solid;
+    padding: 20px 0;
+    margin: 20px 0;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+    background-color: #c4cad0;
+}
+
+#message {
+    height: 20%;
+}
+
+#submitButton {
+    margin: 20px 0;
+    padding: 10px 40px;
+    background-color: #6a7b8b;
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+#submitButton {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* MODAL */
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: auto;
+    right: auto;
+    top: 0;
+    width: 50%;
+    height: 50%;
+    overflow: auto; /* Enable scroll if needed */
+    background-color: white; /* Fallback color */
+    background-color: white;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#modallogo {
+    height: 70px;
+}
+
+.modal-content {
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #5c5b5b;
+}
+
+.modalTitle {
+    font-size: 20pt;
+}
+
+.modalSubtitle {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.modal-footer {
+    display: flex;
+    justify-content: center;
+}
+
+#modalClose {
+    margin: 20px 0;
+    padding: 10px 40px;
+    background-color: #6a7b8b;
+    color: white;
+    text-align: center;
+    text-decoration: solid;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 12px;
+}
